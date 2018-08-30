@@ -22,6 +22,7 @@ class PersonalInFormVC: UIViewController, UIImagePickerControllerDelegate, UINav
     @IBOutlet weak var txtFavouriteColor: UITextField!
     @IBOutlet weak var txtFavouritePlace: UITextField!
     @IBOutlet weak var txtFavouriteFood: UITextField!
+    @IBOutlet weak var txtFavouriteFood: UITextField!
     
     let imagePicker = UIImagePickerController()
     var personalInfo:Any?
